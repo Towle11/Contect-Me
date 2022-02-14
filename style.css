@@ -85,16 +85,21 @@ textarea{
         margin-top: -72px;
    
     }
+     span .er-{
+        font-size: 15px;
+        margin-left: 122px;
+        color: #000;
+    }
     .coun{
-        width: 358px;
+        width: 328px;
        height: 647px;
        overflow: hidden;
        display: flex;
  
     }
     textarea{
-        width: 204px;
-        height: 164px;
+        width: 154px;
+        height: 94px;
         margin-top: 12px;
         
     }
@@ -114,7 +119,9 @@ textarea{
         margin-top: -2px;
     
     }
-
+#er-man{
+    font-size: 15px;
+}
    
     #er-bu{
         font-size:  15px;
