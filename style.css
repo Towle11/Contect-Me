@@ -81,7 +81,7 @@ textarea{
 }
 @media screen and (max-width: 410px) {
     body {
-  
+  display: flex;
         margin-top: -72px;
    
     }
@@ -89,6 +89,7 @@ textarea{
         width: 358px;
        height: 647px;
        overflow: hidden;
+       display: flex;
  
     }
     textarea{
