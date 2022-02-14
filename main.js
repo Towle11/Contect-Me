@@ -100,7 +100,7 @@ but.addEventListener("click",checkAll)
 
 function checkAll(){
     if(!check() || !eamlCh() ||!dis() ||!masC()){
-        erB.innerHTML="Please Fix The Error Before Submit !"
+        // erB.innerHTML="Please Fix The Error Before Submit !"
         erB.style.color="red"
         return false
     }
@@ -114,7 +114,7 @@ document.querySelector("#text-are").addEventListener("keyup",masC,)
     let s=15
     let a=s-mass.length
     if(a>""){
-        erM.innerHTML=a+"Letters is Remaining ! "
+        erM.innerHTML=a+" Letters is Remaining ! "
         erM.style.color="red"
       
         return false
@@ -130,7 +130,7 @@ document.querySelector("#text-are").addEventListener("keyup",masC,)
 let bot=document.querySelector("#dir")
 bot.addEventListener("click",sendE)
  function sendE(e){
-    
+    e.preventDefault()
 var eaml= document.querySelector("#emal").value;
     magac= document.querySelector("#name").value
     hadal= document.querySelector("#text-are").value
@@ -139,7 +139,7 @@ var eaml= document.querySelector("#emal").value;
         alert("Fill all Inputs")
     }
     if(!check() || !eamlCh() ||!dis() ||!masC()){
-        return  erB.innerHTML="Please Fix The Error Before Submit !"
+        return  erB.innerHTML="Fill b4 Submit !"
     }
     else{
 Email.send({
@@ -155,19 +155,24 @@ Email.send({
 }).then(
   message => alert(message+ " Successfully ")
 );}
-clear()
- 
+
+
+ clear()
  }
 
 
  function clear(){
+     {
     var eaml= document.querySelector("#emal").value;
     magac= document.querySelector("#name").value
     // hadal= document.querySelector("#text-are").value
     nuuu=document.querySelector("#number").value
-    eaml.innerHTML=""
-   
-    nuuu.innerHTML=""
-    magac.innerHTML=""
-
- }
+    if(eaml>0 || magac.length>0||hadal>0||nuuu>0){
+        eaml.value=""
+        nuuu.innerHTML=""
+        magac.innerHTML=""
+     }
+     else{
+       alert("asdasdsad")
+     }
+ }}
