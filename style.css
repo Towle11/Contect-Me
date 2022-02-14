@@ -62,8 +62,7 @@ button:hover{
     font-size: 1.4rem;
     margin-left: -22px;
     padding: 13px;
-    font-family: "Gill Sans", sans-serif;
-}
+ }
 input{
     font-size: 22px;
     height: 36px;
@@ -76,51 +75,75 @@ input{
 textarea{
     font-size: 22px;
     width: 233px;
-    height: 144px;
+    height: 124px;
+    margin-top: -12px;
+
 }
 @media screen and (max-width: 410px) {
     body {
-   height: auto;
+  
+        margin-top: -72px;
    
     }
     .coun{
-        width: 388px;
-       height: 597px;
+        width: 358px;
+       height: 647px;
+       overflow: hidden;
+ 
     }
     textarea{
-        width: 304px;
+        width: 204px;
         height: 164px;
+        margin-top: 12px;
         
     }
-     .mas{
-        font-size: 24px;
-        margin-top: -2px;
+    .inputs{
+        padding: 12px;
+ 
     }
+    .head{
+       margin-top: 39px;
+    }
+    footer{
+        margin-left: 72px;
+        margin-bottom: -3px;
+    }
+     .mas{
+        font-size: 14px;
+        margin-top: -2px;
+    
+    }
+
    
-    .er-bu{
-        font-size: 12px;
+    #er-bu{
+        font-size:  15px;
+        margin-left: 9px;
          
     }
+    button{
+        margin-left: 104px;
+        margin-top: -12px;
+    };
  }
  .er-nu{
      color: rgb(9, 10, 10);
      font-size: 19px;
      margin-left: -222px;
      margin-top: 12px;
-     font-family: cursive;
+ 
  }
  .mas{
      font-size:   22px;
-     font-family: "Gill Sans", sans-serif;
+   
  }
  .er-bu{
      font-size: 17px;
-     margin-left: -53px;
-     font-family: cursive;
+     margin-left: -43px;
+     
  }
  #er-na{
      font-size: 18px;
-     font-family: cursive;
+     
      margin-left: -222px;
 
 
@@ -128,6 +151,9 @@ textarea{
  }
  #er-man{
      margin-left: -162px;
-     font-family: cursive;
+   
  }
  
+ footer{
+     margin-top: -14px;
+ }
