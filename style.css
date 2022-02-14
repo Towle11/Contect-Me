@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: none;
+}
+.coun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 27px ;
+    width: 450px;
+    margin: auto;
+    margin-top: 77px;
+ border-radius: 14px;
+ 
+ 
+    flex-direction: column;
+ 
+    height: 540px;
+    display: flex;
+    background: rgb(236, 235, 235);
+}
+.inputs{
+ text-align: center;
+ margin-top: 15px;
+ padding: 2px;
+
+}
+.head p{
+    font-size: 33px;
+    box-shadow: 0 2px 2px;
+    background: #000
+    ;margin-top: -83px;
+    color: rgb(212, 215, 218);
+    width: 450px;
+    border-radius:12px;
+    height: 65px;
+    margin:px;
+    font-family: cursive;
+    text-align: center;
+}
+button{
+    display: grid;
+   margin-top: 13px;
+    font-size: 23px;
+    font-weight: 500;
+    border: 1px solid;
+    width: 114px;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    border-radius: 13px;
+}
+
+button:hover{
+    background: rgb(39, 38, 38);
+    color: rgb(221, 232, 241);
+}
+ .leb{
+    color: black;
+    font-size: 1.4rem;
+    margin-left: -22px;
+    padding: 13px;
+    font-family: "Gill Sans", sans-serif;
+}
+input{
+    font-size: 22px;
+    height: 36px;
+    padding: 18px;
+    width: 252px;
+    border: 1px solid;
+    border-radius: 9px;
+ 
+}
+textarea{
+    font-size: 22px;
+    width: 233px;
+    height: 144px;
+}
+@media screen and (max-width: 410px) {
+    body {
+   height: auto;
+   
+    }
+    .coun{
+        width: 388px;
+       height: 597px;
+    }
+    textarea{
+        width: 304px;
+        height: 164px;
+        
+    }
+     .mas{
+        font-size: 24px;
+        margin-top: -2px;
+    }
+   
+    .er-bu{
+        font-size: 12px;
+         
+    }
+ }
+ .er-nu{
+     color: rgb(9, 10, 10);
+     font-size: 19px;
+     margin-left: -222px;
+     margin-top: 12px;
+     font-family: cursive;
+ }
+ .mas{
+     font-size:   22px;
+     font-family: "Gill Sans", sans-serif;
+ }
+ .er-bu{
+     font-size: 17px;
+     margin-left: -53px;
+     font-family: cursive;
+ }
+ #er-na{
+     font-size: 18px;
+     font-family: cursive;
+     margin-left: -222px;
+
+
+     
+ }
+ #er-man{
+     margin-left: -162px;
+     font-family: cursive;
+ }
+ 
